@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>icons/44px/hamburger-menu</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Navigation/Desktop/header-1280/Level-1" transform="translate(-48.000000, -26.000000)">
+            <g id="div" transform="translate(32.000000, 8.000000)">
+                <g id="div---Hamburger" transform="translate(0.000000, 2.000000)">
+                    <g id="icon-x-modal-close">
+                        <rect id="Rectangle-234" x="0" y="0" width="48" height="48"></rect>
+                        <polygon id="x" fill="#D52B1E" fill-rule="evenodd" points="31.1967987 16 23.9980375 23.2004962 16.7992449 16 16 16.7994724 23.1987612 24 16 31.2005276 16.7992449 32 23.9980375 24.7994724 31.1967987 32 31.9960749 31.2005276 24.7973137 24 31.9960749 16.7994724"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

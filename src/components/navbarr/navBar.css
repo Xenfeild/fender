@@ -1,0 +1,34 @@
+
+#fenderApp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+
+#left{
+    display: flex;
+    margin-left: 1rem;
+}
+
+#left p {
+     margin-right: 1rem;
+}
+#right{
+    display: flex;
+    flex-direction: flex-end;
+    font-weight: bold;
+    color: #d52b1e;
+    margin-right: 1rem;
+}
+
+#mid{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input {
+    border-radius: 10px;
+}

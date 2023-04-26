@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="9px" height="18px" viewBox="0 0 9 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>icons/44px/hamburger-menu</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Navigation/Desktop/header-1280/Level-2" transform="translate(-50.000000, -23.000000)" fill="#D52B1E" fill-rule="nonzero">
+            <g id="div" transform="translate(32.000000, 8.000000)">
+                <g id="div---Hamburger" transform="translate(0.000000, 2.000000)">
+                    <g id="icons/44px/pointer-left-light">
+                        <g id="icons/trimmed/pointer-left-light" transform="translate(17.789404, 13.176607)">
+                            <path d="M12.829137,12.141422 L4.5,5 L-3.82913697,12.141422 C-4.03714039,12.3197616 -4.05814074,12.6284263 -3.87613775,12.8322429 C-3.69413475,13.0370395 -3.37812956,13.0566372 -3.17112615,12.8782976 L4.5,6.30227084 L12.1711262,12.8782976 C12.2661277,12.9596283 12.3831296,12.9998037 12.5001316,12.9998037 C12.6391338,12.9998037 12.7771361,12.9429702 12.8761377,12.8322429 C13.0581407,12.6284263 13.0371404,12.3197616 12.829137,12.141422" transform="translate(4.500000, 9.000000) rotate(-90.000000) translate(-4.500000, -9.000000) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
