@@ -1,7 +1,9 @@
-import React from 'react'
+// import React, { useState } from 'react';
 import { AiOutlineShoppingCart, AiOutlineUser } from "react-icons/ai";
 import './navBar.css';
 import { TfiLocationPin } from "react-icons/tfi";
+import { BsBoxSeam } from "react-icons/bs";
+// import './menu.js'
 
 export default function Navbar() {
   return (
@@ -9,7 +11,7 @@ export default function Navbar() {
     <header>
         {/* top header */}
             <nav id="fenderApp">
-                <div id='left'>
+                <div id='left'>   
                     <p>Fender.com</p>
                     <p>Play</p>
                     <p>Tune</p>
@@ -21,19 +23,21 @@ export default function Navbar() {
             </nav>
             {/* mid header */}
             <div id="mid">
-                <div>
-                    <img src="img/fender-guitars-logo.svg" alt="" width="70px"/>
+                <div id="svgs">
+                    <img src="img/hamburger-menu.svg" alt="" id="menu_burger"/>
+                    <img src="img/fender-guitars-logo.svg" alt="" id='fender'/>
+                    {/* <i src="img/fender-guitars-logo.svg"></i> */}
                 </div>
                 <div>
-                    <input type="search" />
+                    <input type="search" placeholder='recherchez www.fender.com' id="search"/>
                 </div>
-                <div>
-                    <img src="" alt="" />
-                    <AiOutlineShoppingCart/>
+                <div >
+                    <AiOutlineShoppingCart id='iconLeft'/>
                     <TfiLocationPin/>
                 </div>
             </div>
-            <nav>
+            {/* bottom header */}
+            <nav id="shopApp">
                 <p>mod shop</p>
                 <p>guitars</p>
                 <p>acoustasonic</p>
@@ -44,6 +48,11 @@ export default function Navbar() {
                 <p>accessoires</p>
                 <p>squier</p>
             </nav>
+            {/* livraison */}
+            <div id='livraison'>
+                <BsBoxSeam/>
+                <p><span>Livraison gratuite</span> à partir de 50€ d'achat</p>
+            </div>
     </header>
   )
 }

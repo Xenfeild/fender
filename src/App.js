@@ -6,13 +6,11 @@ import HomePage from './page/HomePage';
 function App() {
   return (
     <div>
-      <header >
         <Router>
           <Routes>
             <Route path='/' element=<HomePage/> />
           </Routes>
         </Router>
-      </header>
     </div>
   );
 }

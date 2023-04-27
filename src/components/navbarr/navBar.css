@@ -1,15 +1,26 @@
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: relative;
+    
+}
 #fenderApp{
-    display: flex;
-    align-items: center;
     justify-content: space-between;
     text-transform: uppercase;
+    font-size: 0.8rem;
+    display: none;
 }
 
 
 #left{
     display: flex;
     margin-left: 1rem;
+    font-size: 0.7rem;
 }
 
 #left p {
@@ -25,10 +36,122 @@
 
 #mid{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+#menu_burger{
+    padding-bottom: 25px;
+    margin-right: 1rem;
+}
+
+.menu_display {
+    /* display: block; */
+    opacity: 1;
+    top: 50px;
+}
+
+#fender{
+    max-width: 7rem;
     align-items: center;
 }
 
-input {
-    border-radius: 10px;
+
+
+#svgs{
+    align-items: center;
+}
+#search {
+    border-radius: 20px;
+    position: relative;
+    height: 2.8em;
+    border: solid 2px 2px;
+    border-color: #666;
+    width: 100%;
+    box-sizing: border-box;
+    /* max-width: 20rem; */
+}
+
+#shopApp{
+    
+    align-items: center;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    /* position: absolute; */
+    /* right: 15px;
+    top: -250px;
+    background-color: #999;
+    padding: 1rem;
+    /* display: none; */
+    display: none;
+    /*transition: all 0.5s ease-out;  */
+}
+
+#shopApp p{
+    margin: 0.4rem;
+    color : #666;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#iconLeft{
+    margin-right: 1rem;
+    
+}
+
+#livraison{
+    display: none;
+}
+
+
+span{
+    font-weight: bold;
+    margin-left: 0.5rem;
+    text-transform: underline;
+}
+
+@media (min-width: 350px){
+    #fenderApp{
+        display: flex;
+        align-items: center;
+    }
+    #livraison{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #000;
+        color: #fff;  
+        height: 1.5rem;
+        font-size: 1rem;
+        padding: 0.3rem;
+        position: absolute;
+        top: 0px;
+        width: 100%;
+    }
+}
+
+@media (min-width:780px) {
+    #fenderApp{
+        opacity: 1;
+        margin: 0 auto; /* Ajout d'une marge horizontale automatique pour centrer le contenu */
+        max-width: 780px; /* Ajout d'une largeur maximale pour éviter que le contenu ne s'étire trop sur les grands écrans */
+    }
+    #shopApp{
+        display: flex;
+        justify-content: center;
+        opacity: 1;
+        margin: 0 auto; /* Ajout d'une marge horizontale automatique pour centrer le contenu */
+        /* width: 25em; Ajout d'une largeur maximale pour éviter que le contenu ne s'étire trop sur les grands écrans */
+    } 
+    #livraison{
+        position: relative;
+    }
+    #search{
+        width: 30em;
+    }
+    #menu_burger{
+        display: none;
+    }
 }

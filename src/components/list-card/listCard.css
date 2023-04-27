@@ -1,0 +1,18 @@
+.card{
+    border-top: 2px solid;
+    width: 90%;
+    color: #ccc;
+    margin-top: 1rem;
+    text-align: left;
+    padding: 0.5rem;
+}
+
+.title{
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+ul{
+    list-style: none;
+}
