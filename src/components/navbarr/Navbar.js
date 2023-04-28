@@ -6,6 +6,8 @@ import { BsBoxSeam } from "react-icons/bs";
 // import './menu.js'
 
 export default function Navbar() {
+    // const[click, setClick] = useState(false);
+    // const handleClick = () =>setClick(!click);
   return (
     
     <header>

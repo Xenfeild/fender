@@ -74,10 +74,14 @@ header{
     /* max-width: 20rem; */
 }
 
+#search::placeholder{
+    padding-left: 2rem;
+}
+
 #shopApp{
     
     align-items: center;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     margin-top: 1rem;
     /* position: absolute; */
     /* right: 15px;
@@ -136,14 +140,14 @@ span{
     #fenderApp{
         opacity: 1;
         margin: 0 auto; /* Ajout d'une marge horizontale automatique pour centrer le contenu */
-        max-width: 780px; /* Ajout d'une largeur maximale pour éviter que le contenu ne s'étire trop sur les grands écrans */
+
     }
     #shopApp{
         display: flex;
         justify-content: center;
         opacity: 1;
-        margin: 0 auto; /* Ajout d'une marge horizontale automatique pour centrer le contenu */
-        /* width: 25em; Ajout d'une largeur maximale pour éviter que le contenu ne s'étire trop sur les grands écrans */
+        margin: 0 auto; 
+        padding-bottom: 1rem;
     } 
     #livraison{
         position: relative;
