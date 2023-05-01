@@ -26,6 +26,7 @@
     padding: 2rem;
 }
 
+
 .product{
     display: flex;
     justify-content: center;
@@ -63,5 +64,8 @@
     padding: 2em;
     top: -100px;
     left: 200px;
+    }
+    .heading{
+       margin-left: 200px;
     }
 }

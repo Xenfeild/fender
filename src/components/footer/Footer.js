@@ -5,12 +5,13 @@ import { DataFooter } from '../../data/DataFooter'
 import { TfiFacebook, TfiTwitterAlt, TfiYoutube } from "react-icons/tfi";
 import { ImInstagram } from "react-icons/im";
 
+
 export default function Footer() {
   return (
     <footer>
         <div className='highHeader'>
           <div className='logo'>
-            <img src="img/fender-3.svg" alt="" id="fender"/>
+            <img src="img/fender2.png" alt="" id="fender"/>
           </div>
           <div id='topHeader'>
             <h2>Ne ratez rien</h2>  

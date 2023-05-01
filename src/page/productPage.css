@@ -1,0 +1,28 @@
+.new{
+    background-color: #d52b1e;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    margin: 1rem;
+    padding: 0.5rem;
+    max-width: 6rem;
+}
+
+.visualProduct{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+}
+
+.visualProduct h2{
+    color: black;
+}
+
+.infoProduct{
+    flex-direction: column;
+}
+
+.infoProduct img{
+    width: clamp(50px, 10rem, 500px);
+}

@@ -5,6 +5,7 @@ export const DataProduct = [
         name:"Squier Sonic™ Stratocaster® HT",
         price:"199.99€",
         color:"2 couleurs",
+        link:'/product'
     },
     {
         id:2,
@@ -12,6 +13,7 @@ export const DataProduct = [
         name:"Squier Sonic™ Esquire® H",
         price:"199.99€",
         color:"2 couleurs",
+        link: '/product'
     },
     {
         id:3,
@@ -19,6 +21,7 @@ export const DataProduct = [
         name:"Squier Sonic™ Mustang®",
         price:"199.99€",
         color:"2 couleurs",
+        link: '/product'
     },
     {
         id:4,
@@ -26,5 +29,6 @@ export const DataProduct = [
         name:"Squier Sonic™ Precision Bass®",
         price:"219.99€",
         color:"3 couleurs",
+        link: '/product'
     },
 ]

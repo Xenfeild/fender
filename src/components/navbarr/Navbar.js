@@ -1,4 +1,4 @@
-// import React, { useState } from 'react';
+import React, { useState } from 'react';
 import { AiOutlineShoppingCart, AiOutlineUser } from "react-icons/ai";
 import './navBar.css';
 import { TfiLocationPin } from "react-icons/tfi";
@@ -6,13 +6,13 @@ import { BsBoxSeam } from "react-icons/bs";
 // import './menu.js'
 
 export default function Navbar() {
-    // const[click, setClick] = useState(false);
-    // const handleClick = () =>setClick(!click);
+    const[MenuOpen, setMenuOpen] = useState(false);
+    const handleClick = () =>setMenuOpen(!MenuOpen);
   return (
     
     <header>
         {/* top header */}
-            <nav id="fenderApp">
+            <nav id="fenderApp" className={MenuOpen ? "open" : ""}>
                 <div id='left'>   
                     <p>Fender.com</p>
                     <p>Play</p>
@@ -26,8 +26,14 @@ export default function Navbar() {
             {/* mid header */}
             <div id="mid">
                 <div id="svgs">
-                    <img src="img/hamburger-menu.svg" alt="" id="menu_burger"/>
-                    <img src="img/fender-guitars-logo.svg" alt="" id='fender'/>
+                   <img
+                        src="img/hamburger-menu.svg" 
+                        alt="" 
+                        id="menu_burger"
+                        onClick={handleClick}
+                        className={MenuOpen ? "open" : ""} // }
+                        />
+                    <a href='/'><img src="img/fender-guitars-logo.svg" alt="" id='fender'/></a>
                     {/* <i src="img/fender-guitars-logo.svg"></i> */}
                 </div>
                 <div>
@@ -39,7 +45,7 @@ export default function Navbar() {
                 </div>
             </div>
             {/* bottom header */}
-            <nav id="shopApp">
+            <nav id="shopApp" className={MenuOpen ? "open" : ""}>
                 <p>mod shop</p>
                 <p>guitars</p>
                 <p>acoustasonic</p>

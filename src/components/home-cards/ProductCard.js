@@ -1,15 +1,11 @@
 import React from 'react'
 import './productCard.css'
 
-export default function ProductCard({img,name,price,color}) {
+export default function ProductCard({img,name,price,color, link}) {
   return (
     <div className='productCard'>
-        {/* <figure id='productFig'>
-            <figcaption id='productFigCapt'>
-                <p>NEW</p>
-            </figcaption> */}
+        <a href="/product">
         <img src={`img/${img}`} alt="" />
-        {/* </figure> */}
         <div className="name">
             <p>{name}</p>
         </div>
@@ -17,6 +13,7 @@ export default function ProductCard({img,name,price,color}) {
             <p>{price}</p>
             <p>{color}</p>
         </div>
+        </a>
     </div>
   )
 }

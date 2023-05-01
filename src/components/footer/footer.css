@@ -17,11 +17,11 @@ iframe{
     fill: #fff !important;
     padding: 1rem;
     margin-right: 2rem;
-    width: 30rem;
+    width: 400px;
 }
 
 #fender img{
-    width: 30rem;
+    width: 100%;
 }
 
 h2{

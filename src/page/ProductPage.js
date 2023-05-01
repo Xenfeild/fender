@@ -1,31 +1,38 @@
 import React from 'react'
 import './homePage.css'
 import Layout from '../components/layout/Layout'
+import './productPage.css'
 
 
 export default function ProductPage() {
   return (
     <div>
       <Layout>
-        <hr />
-        <h2>Product Name</h2>
-        <p>model number</p>
-        <img src="" alt="" />
-        <div className='detailInfo'>
-          <div className="colorChoice">
-            <p>title</p>
-            <p>colorName</p>
+        <div className='visualProduct'>
+          <div className="infoProduct">
+            <div className='new'>
+              <p>nouveau</p>
+            </div>
+          <h2>SQUIER SONIC™ STRATOCASTER® HT</h2>
+         <p>Modèle n° : 0373250558</p>
+          <img src="img/squier horizontal.jpg" alt="" />
           </div>
-          <div className="fingerboardChoice">
-            <p>title</p>
-            <p>boardName</p>
-          </div>
-          <dir className='price'>
-            <p>price</p>
-          </dir>
-          <div className="delivery">
-            <p>en stock</p>
-            <p>disponible</p>
+          <div className='detailInfo'>
+            <div className="colorChoice">
+              <p>title</p>
+              <p>colorName</p>
+            </div>
+            <div className="fingerboardChoice">
+              <p>title</p>
+              <p>boardName</p>
+            </div>
+            <dir className='price'>
+              <p>price</p>
+            </dir>
+            <div className="delivery">
+              <p>en stock</p>
+              <p>disponible</p>
+            </div>
           </div>
           <button>Ajouter au panier</button>
           <div className="descriptionProduct">
