@@ -5,7 +5,8 @@ export default function ErrorPage() {
   return (
     <div>
         <Layout>
-            <h1>error 404</h1>
+          <img src="img/fender-guitars-logo.svg" alt="" width={'300px'}/>
+            <h1>Error 404</h1>
         </Layout>
     </div>
   )

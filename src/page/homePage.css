@@ -25,6 +25,9 @@
     font-size: 2rem;
     padding: 2rem;
 }
+#transition{
+    max-width: 100px;
+}
 
 
 .product{
@@ -56,6 +59,12 @@
     left: 0px;
     width: clamp(200px, 100% ,600px);
     /* left: clamp(0,1rem,200px); */
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    
 }
 
 @media(min-width:1200px){

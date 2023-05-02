@@ -44,10 +44,10 @@ export default function HomePage() {
               price={data.price}
               color={data.color}
               />
+                  <hr />
               </div>
             ))}
             </div>
-            <hr />
             {/* div fender feed */}
             <div className="fenderFeed">
               <div className="">
@@ -70,7 +70,7 @@ export default function HomePage() {
             {/* accesories */}
             <div className="productList">
               <div className="heading">
-                <hr />
+                <hr id='transition'/>
                 <h3>Accessories</h3>
               </div>
             <div className="product">

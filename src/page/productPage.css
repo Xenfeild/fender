@@ -10,6 +10,7 @@
 
 .visualProduct{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
     max-width: 1200px;
@@ -20,9 +21,170 @@
 }
 
 .infoProduct{
+    justify-content: center;
     flex-direction: column;
 }
 
+.topProduct{
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.infoProduct{
+    max-width: 790px;
+}
+.price{
+    margin-top: 1rem;
+}
 .infoProduct img{
-    width: clamp(50px, 10rem, 500px);
+    width: clamp(50px, 80%, 800px);
+}
+
+.colorInformation span{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-left: -2px;
+}
+.fingerBoard span{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-left: -2px;
+}
+
+.delivery span{
+    color: #008a00;
+    transform: uppercase;
+}
+.colorInformation{
+    font-size: 1.1rem;
+}
+.fingerBoard{
+    font-size: 1.1rem;
+}
+
+.price{
+    margin-bottom: 1rem;
+}
+
+.price span{
+    font-size: 1.5rem
+}
+
+.colorChoice img{
+    width: 30px;
+    margin: 10px;
+    border: solid 1px #000;
+    padding: 2px;
+    border-radius: 100px;
+}
+.fingerBoardChoice img{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    border: solid 1px #000;
+    padding: 2px;
+    border-radius: 100px;
+}
+
+.imgList{
+    display: none;
+}
+.imgList img{
+    width: 100%;
+    border: solid 1px #000;
+    margin: 5px;
+}
+
+.mini{
+    width: 100px;
+}
+
+.CharacList ul li{
+    margin-top: 1rem;
+    list-style:square;
+    margin-left: 20px;
+    margin-bottom: 2rem;
+}
+
+.characteritics{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+.detailInfo{
+    flex-direction: column;
+    max-width: 300px;
+}
+.characteritics h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.descriptionProduct{
+    margin-top: 3rem;
+}
+.video{
+    height: 400px;
+    margin-bottom: 1rem;
+}
+
+.other{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.otherList{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.otherListSec{
+    max-width: 200px;
+    margin: 2rem;
+}
+
+.otherListSec span{
+    text-align: center;
+}
+
+.otherListSec li{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.other button {
+    background-color: #fff;
+    color: black;
+    border: solid 1px #666;
+    width: clamp(180px,80%,300px);
+    padding: 1rem;
+}
+
+iframe {
+    width: clamp(100px, 80%, 800px);
+    height: 100%;
+}
+
+@media (min-width:820px) {
+    .visualProduct{
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-left: clamp(0px, 20%, 400px);
+    }
+
+    .topProduct{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .imgList{
+    margin-left: 2%;
+    display: flex;
+    height: 100px;
+    width: 100px; 
+    }
+    .detailInfo{
+        margin-top: 10rem;
+    }
 }

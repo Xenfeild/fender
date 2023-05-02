@@ -26,6 +26,7 @@ export default function Navbar() {
             {/* mid header */}
             <div id="mid">
                 <div id="svgs">
+                    {/* menu burger/fender */}
                    <img
                         src="img/hamburger-menu.svg" 
                         alt="" 
@@ -34,7 +35,6 @@ export default function Navbar() {
                         className={MenuOpen ? "open" : ""} // }
                         />
                     <a href='/'><img src="img/fender-guitars-logo.svg" alt="" id='fender'/></a>
-                    {/* <i src="img/fender-guitars-logo.svg"></i> */}
                 </div>
                 <div>
                     <input type="search" placeholder='recherchez www.fender.com' id="search"/>
